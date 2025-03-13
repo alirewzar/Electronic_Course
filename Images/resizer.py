@@ -30,7 +30,7 @@ def resize_image(image_path, scale_factor):
         print("Error: Image file not found. Please check the file path.")
 
 # Example usage: Resize the image by a factor of 0.5 (50% size)
-image_path = "Images/NPN-PNP.png"  # Replace with the actual image file path
-scale_factor = 0.5  # Change this value to scale the image
+image_path = "Images/DIRECT-BIAS.png"  # Replace with the actual image file path
+scale_factor = 0.8  # Change this value to scale the image
 
 resize_image(image_path, scale_factor)
